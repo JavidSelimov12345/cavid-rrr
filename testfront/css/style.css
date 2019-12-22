@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container-fluid {
+  margin-left: 5px; }
+
+.heart1 {
+  height: 20px;
+  width: 24px;
+  background-image: url("../images/hurt.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: transform .3s ease-in-out; }
+  .heart1:hover {
+    transform: scale(3);
+    opacity: 1; }
+
+.about {
+  height: 440px;
+  width: 540px;
+  background-image: url("../images/hurt.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  cursor: pointer;
+  transition: transform .3s ease-in-out;
+  margin-top: 600px; }
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 600px; }
+
+canvas {
+  padding: 0;
+  margin: 0;
+  position: absolute; }
+
+.btnbg {
+  position: relative;
+  left: 0;
+  top: 0; }
+
+.ThreeDotsMenu {
+  width: 780px;
+  height: 40px;
+  color: white;
+  background-color: rgba(0, 0, 255, 0);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  font-size: 10px; }
+
+button {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: #aa8080;
+  border: none;
+  margin-left: 3px; }
+
+.MenuPanel {
+  position: relative;
+  height: 530px;
+  width: 287px;
+  background-color: #8f8680;
+  margin-top: 600px;
+  margin-left: -860px;
+  z-index: 2;
+  transition: all 0.9s ease-in-out; }
+
+.closeMenu {
+  font-size: 20px;
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
